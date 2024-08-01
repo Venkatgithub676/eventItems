@@ -3,12 +3,12 @@
 .event-bg-con {
   min-height: 100vh;
   display: flex;
-  background-color: #64748b;
 }
 
 .heading-event-item-con {
   padding: 20px 50px 20px 50px;
-  width: 50%;
+  width: 60%;
+  background-color: #64748b;
 }
 .event-heading {
   font-size: 25px;
@@ -19,6 +19,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
   padding: 0;
+}
+
+.active-reg-dtls {
+  width: 40%;
+  display: flex;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }

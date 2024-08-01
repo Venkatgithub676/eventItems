@@ -1,7 +1,6 @@
 /* Write your CSS here */
 
 .event-item-btn {
-  width: 40%;
   background-color: transparent;
   border: none;
   margin-bottom: 20px;
@@ -15,11 +14,14 @@
 
 .event-item-li-con {
   list-style-type: none;
+  width: 40%;
 }
 .event-item-img {
   width: 150px;
   border-radius: 5px;
   width: 100%;
+  margin-bottom: 0;
+  margin-top: 20px;
 }
 .event-item-name {
   font-family: 'Roboto';
@@ -27,6 +29,8 @@
   font-size: 25px;
   align-self: flex-start;
   text-align: left;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .event-item-location {
   font-family: 'Roboto';
@@ -34,4 +38,5 @@
   font-size: 15px;
   align-self: flex-start;
   text-align: left;
+  margin-top: 10px;
 }

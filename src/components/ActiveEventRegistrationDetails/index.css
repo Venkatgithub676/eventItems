@@ -1,1 +1,63 @@
 /* Write your CSS here */
+
+.reg-closed-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.reg-close-img {
+  width: 300px;
+}
+
+.reg-closed-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.reg-closed-para {
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.reg-img {
+  width: 200px;
+}
+.reg-para {
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.yet-to-reg-img {
+  width: 80%;
+}
+.yet-to-reg-para {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+}
+
+.reg-here-btn {
+  width: 200px;
+  background-color: #0967d2;
+  color: #ffffff;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  margin-top: 20px;
+}
+
+.initial-con {
+  display: flex;
+  justify-content: center;
+}
+.initial-reg {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}

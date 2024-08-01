@@ -54,6 +54,7 @@ const eventsList = [
 ]
 
 const constants = {
+  initial: 'INITIAL',
   closed: 'REGISTRATIONS_CLOSED',
   registered: 'REGISTERED',
   yetToReg: 'YET_TO_REGISTER',
@@ -61,7 +62,7 @@ const constants = {
 // Write your code here
 
 class Events extends Component {
-  state = {activeId: '', status: ''}
+  state = {activeId: '', status: constants.initial}
 
   onClickEvent = (id, status) => {
     this.setState({activeId: id, status})
@@ -85,12 +86,8 @@ class Events extends Component {
             ))}
           </ul>
         </div>
-        <div>
-          <ActiveEventRegistrationDetails
-            constants={constants}
-            status={status}
-          />
-        </div>
+
+        <ActiveEventRegistrationDetails constants={constants} status={status} />
       </div>
     )
   }

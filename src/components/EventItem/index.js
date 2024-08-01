@@ -12,17 +12,21 @@ const EventItem = props => {
     onClickEvent(id, registrationStatus)
   }
   return (
-    <button onClick={onClickEventItem} type="button" className="event-item-btn">
-      <li className="event-item-li-con">
+    <li className="event-item-li-con">
+      <button
+        onClick={onClickEventItem}
+        type="button"
+        className="event-item-btn"
+      >
         <img
           className={`event-item-img ${borderCol}`}
           src={imageUrl}
           alt="event"
         />
-        <h1 className="event-item-name">{name}</h1>
-        <p className="event-item-location">{location}</p>
-      </li>
-    </button>
+      </button>
+      <p className="event-item-name">{name}</p>
+      <p className="event-item-location">{location}</p>
+    </li>
   )
 }
 
