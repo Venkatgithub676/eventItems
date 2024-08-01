@@ -1,0 +1,37 @@
+/* Write your CSS here */
+
+.event-item-btn {
+  width: 40%;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.border-col {
+  border: 3px solid #2dd4bf;
+}
+
+.event-item-li-con {
+  list-style-type: none;
+}
+.event-item-img {
+  width: 150px;
+  border-radius: 5px;
+  width: 100%;
+}
+.event-item-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 25px;
+  align-self: flex-start;
+  text-align: left;
+}
+.event-item-location {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 15px;
+  align-self: flex-start;
+  text-align: left;
+}

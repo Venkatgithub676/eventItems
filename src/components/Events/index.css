@@ -1,0 +1,24 @@
+/* Write your CSS here */
+
+.event-bg-con {
+  min-height: 100vh;
+  display: flex;
+  background-color: #64748b;
+}
+
+.heading-event-item-con {
+  padding: 20px 50px 20px 50px;
+  width: 50%;
+}
+.event-heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.event-item-ul-con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  padding: 0;
+}
